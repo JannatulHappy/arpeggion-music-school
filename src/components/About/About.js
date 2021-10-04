@@ -11,17 +11,17 @@ const About = () => {
       <h2 className="text-center mt-5 title ">About Us</h2>
       <hr className="w-25 mx-auto text-danger mb-4" />
       {/* top part of about us */}
-      <div className="row d-flex container">
+      <div className="row d-flex container ms-5 mt-5">
         {/*top part left image  */}
         <div className="col-lg-6 col-md-12">
           <img className=" ms-5 img-fluid" src={img} alt="" />
         </div>
         {/* right side of top part*/}
-        <div className="col-lg-6 col-md-12 ">
+        <div className="col-lg-6 col-md-12 ps-5">
           <h3 className="ms-5 ps-5 text-center mt-4 fs-5 about-text">
             ARPEGGIO" - Music School & Workshop
           </h3>
-          <p className="ms-5 ps-5 about-text mt-4 fs-5">
+          <p className="ms-5 ps-5 ms-5 about-text mt-4 fs-5">
             ARPEGGIO Established on April 2009, Arpeggio has established itself
             as Chattogram’s go-to provider for music lessons and tuition for all
             ages and levels. Our journey started with 20 students, and since
@@ -77,7 +77,7 @@ const About = () => {
             <Accordion.Item eventKey="2">
               <Accordion.Header>
                 <h6 className="accordion-title">
-                  {" "}
+                 
                   Jamming session, Group playing & Listening session
                 </h6>
               </Accordion.Header>
