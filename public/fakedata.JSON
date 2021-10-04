@@ -1,0 +1,92 @@
+[
+    {
+      "courseName": "Guitar",
+      "id":"01",
+      "image": "https://images.unsplash.com/photo-1543945696-4f1116f30c03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+      "details": "Grasp the essentials needed to begin playing acoustic or electric Guitar. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Piano",
+      "id":"02",
+      "image": "https://images.unsplash.com/photo-1552422535-c45813c61732?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGlhbm98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "details": "Grasp the essentials needed to begin playing Piano. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Violin",
+      "id":"03",
+      "image": "https://c4.wallpaperflare.com/wallpaper/650/509/222/violin-hd-wallpaper-preview.jpg",
+      "details": "Grasp the essentials needed to begin playing Violin. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Drums",
+      "id":"04",
+      "image": "https://cdn.pixabay.com/photo/2017/01/19/01/58/drum-1991365__340.jpg",
+      "details": "Grasp the essentials needed to begin playing Drums. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Bass",
+      "id":"05",
+      "image": "https://media.istockphoto.com/photos/closeup-photo-of-bass-guitar-player-picture-id651209608?k=20&m=651209608&s=612x612&w=0&h=AiB7XH40Akl40uf8alG9Imq4CQA-4wGAx8mvd4TOAKM=",
+      "details": "Grasp the essentials needed to begin playing Bass Guitar. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Ukulele",
+      "id":"06",
+      "image": "https://cdn.pixabay.com/photo/2017/01/18/08/58/ukulele-1989207__340.png",
+      "details": "Grasp the essentials needed to begin playing Bass Guitar. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Flute",
+      "id":"07",
+      "image": "https://images.unsplash.com/photo-1606139510019-a3e0bbc94c57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zmx1dGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "details": "Grasp the essentials needed to begin playing Flute. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Painting",
+      "id":"08",
+      "image": "https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+      "details": "Grasp the essentials needed to begin playing Painting. You will learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "2 Years",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    },
+    {
+      "courseName": "Recording",
+      "id":"09",
+      "image": "https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+      "details": "Grasp the essentials needed to record your song. You will get here easy approach for record your song, through a combination of exploring the instrument, performance technique, and basic music theory.",
+      "courseDuration": "5 Days",
+      "admissionFee": "$100",
+      "admissionFeeDetails": "(Registration $50 + Including Monthly Fee $30 + Lesson Book $20)",
+      "class": "1 class per week"
+    }
+  ]
