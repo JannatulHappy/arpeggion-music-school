@@ -25,3 +25,18 @@
     font-weight: 700;
     font-size: 50px;
   }
+   .courses .all-course-btn{
+    background-color:rgb(109, 92, 61);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(238, 229, 229);
+    border: 1px solid #c9ae65;
+    font-weight: 500;
+    padding: 14px 6px;
+    border-radius: 7px;
+    outline: 0;
+    border: 0;
+    margin-top: 50px;
+    width: 18%;
+    margin-left: 600px;
+  }

@@ -20,7 +20,7 @@ const TopCourses = () => {
                 <img className="img-fluid" src={course.image} alt="" />
               </div>
               <div className="text-area mt-2">
-                <h1>{course.courseName}</h1>
+                <h1 className="fw-bold">{course.courseName}</h1>
                 <hr className="w-50  mx-auto text-danger" />
                 <h4>Course Duration : {course.courseDuration}</h4>
                 <h4>Admission Fee : {course.admissionFee}</h4>
@@ -38,7 +38,7 @@ const TopCourses = () => {
           </div>
         ))}
       </div>
-      <Link to="/courses"><button class="arpeggio-btn">View All Courses</button></Link>
+      <Link to="/courses"><button className=" all-course-btn">VIEW ALL COURSES</button></Link>
     </div>
   );
 };
