@@ -1,3 +1,4 @@
+/*global */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   margin: 0;
@@ -6,6 +7,7 @@ body{
   font-family: 'Poppins', sans-serif;
   
 }
+/* button */
 .arpeggio-button{
   background-color: #3b5966;
   font-size: 1rem;

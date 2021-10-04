@@ -1,17 +1,16 @@
 import React, { useContext } from "react";
-
 import { Link } from "react-router-dom";
-
 import { coursesContext } from "../../App";
 import "./TopCourses.css";
+// -------top courses area---------
 const TopCourses = () => {
+  // get data from context api
   const [courses] = useContext(coursesContext);
-
   return (
     <div className=" courses">
       <h1 className="text-center title">Top Courses</h1>
       <hr className="w-25 mx-auto text-danger mb-4" />
-
+      {/* showing four courses */}
       <div className="row g-4">
         {courses.slice(0, 4)?.map((course) => (
           <div className="col-lg-3 col-md-6 col-sm-12">
@@ -38,6 +37,7 @@ const TopCourses = () => {
           </div>
         ))}
       </div>
+      {/* button for goinng all courses */}
       <Link to="/courses">
         <button className=" all-course-btn">VIEW ALL COURSES</button>
       </Link>

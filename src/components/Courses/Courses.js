@@ -6,7 +6,9 @@ import img from "../../image/online.jpg";
 import img2 from "../../image/online2.jpg";
 import "./Courses.css";
 import Footer from "../Footer/Footer";
+// courses area
 const Courses = () => {
+  // getting data from context api
   const [courses] = useContext(coursesContext);
   return (
     <div>
@@ -14,7 +16,7 @@ const Courses = () => {
       <div className=" courses">
         <h1 className="text-center mt-5 title border">Regular Courses</h1>
         <hr className="w-50 mx-auto text-danger mb-4" />
-
+        {/* regular courses area */}
         <div className="row g-4">
           {courses?.map((course) => (
             <div className="col-lg-3 col-md-6 col-sm-12">
@@ -41,6 +43,7 @@ const Courses = () => {
             </div>
           ))}
         </div>
+        {/* short courses area */}
         <h1 className="text-center mt-5 border mb-5 title">Short Courses</h1>
         <div className="row g-4">
           {courses.slice(4, 8)?.map((course) => (
@@ -68,7 +71,9 @@ const Courses = () => {
             </div>
           ))}
         </div>
+        {/* online courses area */}
         <h1 className="text-center mt-5 mb-5 border title">Online Courses</h1>
+        {/* img of online courses area */}
         <div className="online-course mx-5 d-flex">
           <img src={img} alt="" />
           <img src={img2} alt="" />

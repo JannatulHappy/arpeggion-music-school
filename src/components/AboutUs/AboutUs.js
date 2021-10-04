@@ -5,11 +5,12 @@ import "./AboutUs.css";
 import Footer from "../Footer/Footer";
 import About from "../About/About";
 
+// about us section
 const AboutUs = () => {
   return (
     <div>
       <Menubar></Menubar>
-     <About></About>
+      <About></About>
       <Footer></Footer>
     </div>
   );

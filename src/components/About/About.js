@@ -3,16 +3,20 @@ import img from "../../image/about.jpg";
 
 import img3 from "../../image/accordion2.jpg";
 import { Accordion } from "react-bootstrap";
-
+// this about has been set in AboutUs.js
 const About = () => {
   return (
     <div>
+      {/* title */}
       <h2 className="text-center mt-5 title ">About Us</h2>
       <hr className="w-25 mx-auto text-danger mb-4" />
+      {/* top part of about us */}
       <div className="row d-flex container">
+        {/*top part left image  */}
         <div className="col-lg-6 col-md-12">
           <img className=" ms-5 img-fluid" src={img} alt="" />
         </div>
+        {/* right side of top part*/}
         <div className="col-lg-6 col-md-12 ">
           <h3 className="ms-5 ps-5 text-center mt-4 fs-5 about-text">
             ARPEGGIO" - Music School & Workshop
@@ -29,14 +33,18 @@ const About = () => {
           </p>
         </div>
       </div>
+      {/* bottom part of about us */}
       <div className="row">
+        {/* title */}
         <h1 className="title text-center mt-5 ">Why Choosing Arpeggio</h1>
         <hr className="w-50 mt-3 mx-auto text-danger mb-4" />
       </div>
       <div className="row mb-5 ">
+        {/* bottom part left image */}
         <div className="col-lg-6">
           <img className="img-fluid" src={img3} alt="" />
         </div>
+        {/* bottom part right accordian */}
         <div className="col-lg-6 mt-5 ">
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
