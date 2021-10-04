@@ -3,14 +3,16 @@ import "./AboutUs.css";
 import Menubar from "../Menubar/Menubar";
 import "./AboutUs.css";
 import img from "../../image/about.jpg";
-import img2 from "../../image/accordian.jpg";
+
 import img3 from "../../image/accordian2.jpg";
+import { Accordion } from "react-bootstrap";
+import Footer from "../Footer/Footer";
 
 const AboutUs = () => {
   return (
     <div>
       <Menubar></Menubar>
-      <h2 className="text-center border mt-5 title ">About Us</h2>
+      <h2 className="text-center mt-5 title ">About Us</h2>
       <hr className="w-25 mx-auto text-danger mb-4" />
       <div className="row d-flex container">
         <div className="col-lg-6 col-md-12">
@@ -33,110 +35,76 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="row">
-        <h1 className="title text-center mt-5 border">Why chossing Us</h1>
+        <h1 className="title text-center mt-5 ">Why Choosing Arpeggio</h1>
+        <hr className="w-50 mt-3 mx-auto text-danger mb-4" />
       </div>
-      <div className="row mb-5">
+      <div className="row mb-5 ">
         <div className="col-lg-6">
-          <img className="img-fluid" src={img2} alt="" />
+        <img className="img-fluid" src={img3} alt="" />
         </div>
-        <div className="col-lg-6 mt-5 pt-5">
-          <div className="accordion mt-5" id="accordionPanelsStayOpenExample">
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-                <button
-                  className="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseOne"
-                  aria-expanded="true"
-                  aria-controls="panelsStayOpen-collapseOne"
-                >
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapseOne"
-                className="accordion-collapse collapse show"
-                aria-labelledby="panelsStayOpen-headingOne"
-              >
-                <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseTwo"
-                >
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapseTwo"
-                className="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingTwo"
-              >
-                <div className="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
-                >
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapseThree"
-                className="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingThree"
-              >
-                <div className="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="col-lg-6 mt-5 ">
+          <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header><h6 className="accordion-title">Lesson plan and methodology</h6></Accordion.Header>
+              <Accordion.Body className="accordion-body">
+                Our syllabus is made to guide the students step by step. We
+                offer one-to-one lesson to understand everyone's inner soul. Our
+                lesson plan is made to help the students play music on their own
+                just like the way we use different languages to communicate in
+                our daily life. We understand everyone is different, so we try
+                to treat them as individuals.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header> <h6 className="accordion-title">Theoretical & Practical test</h6></Accordion.Header>
+              <Accordion.Body className="accordion-body">
+                After completing a grade, our students sit for an exam that
+                contains both theoretical and practical tests. They must pass
+                the test to step up to the next grade. This helps them face all
+                the puzzles given in the lessons and makes them even better.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="2">
+              <Accordion.Header>
+            
+               <h6 className="accordion-title"> Jamming session, Group playing & Listening session</h6>
+              </Accordion.Header>
+              <Accordion.Body className="accordion-body">
+                We pick up students and arrange jamming sessions to let them
+                understand the musical conversation. This is a way out toward
+                the freedom of their own composition. We also arrange listening
+                sessions for introducing them to new genres of music. They can
+                share different music with each other to widen their listening.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="3">
+              <Accordion.Header> <h6 className="accordion-title">Theoretical & Practical test</h6></Accordion.Header>
+              <Accordion.Body className="accordion-body">
+                After completing a grade, our students sit for an exam that
+                contains both theoretical and practical tests. They must pass
+                the test to step up to the next grade. This helps them face all
+                the puzzles given in the lessons and makes them even better.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item  eventKey="4">
+              <Accordion.Header><h6 className="accordion-title">Students performing session</h6></Accordion.Header>
+              <Accordion.Body className="accordion-body">
+                We arrange regular performing sessions for students to get rid
+                of performance anxiety and stage fright. This helps them to grow
+                more confident to become a better performer.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="5">
+              <Accordion.Header><h6 className="accordion-title"> Scholarship</h6></Accordion.Header>
+              <Accordion.Body className="accordion-body">
+                We offer a scholarship for talented students. Especially for
+                those who are unable to afford the tuition fees
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

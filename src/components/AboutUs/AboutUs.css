@@ -1,3 +1,11 @@
 .about-text{
     color:rgb(105, 74, 21);
 }
+.accordion-title{
+    color:rgb(133, 98, 39);
+    font-size: 16px;
+    font-weight: 600;
+}
+.accordion-body{
+    color:rgb(175, 145, 88);
+}
