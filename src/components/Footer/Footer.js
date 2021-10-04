@@ -3,8 +3,8 @@ import "./Footer.css";
 // footer area
 const Footer = () => {
   return (
-    <footer className="p-5 text-center fw-bold fs-6">
-      <section className="contact pb-5">
+    <footer className="ps-5 pb-5 pt-5 text-center fw-bold fs-6">
+      <section className="contact ps-5 ms-5 pb-5">
         <div className="container">
           <div className="row">
             {/* left side of footer */}
