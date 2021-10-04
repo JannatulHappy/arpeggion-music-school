@@ -38,7 +38,9 @@ const TopCourses = () => {
           </div>
         ))}
       </div>
-      <Link to="/courses"><button className=" all-course-btn">VIEW ALL COURSES</button></Link>
+      <Link to="/courses">
+        <button className=" all-course-btn">VIEW ALL COURSES</button>
+      </Link>
     </div>
   );
 };

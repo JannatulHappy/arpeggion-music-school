@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Courses from "./components/Courses/Courses";
+import Gallery from "./components/Gallery/Gallery";
 export const coursesContext = createContext();
 function App() {
   const [courses, setCourses] = useState([]);
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route path="/courses">
               <Courses></Courses>
+            </Route>
+            <Route exact path="/gallery">
+              <Gallery></Gallery>
             </Route>
             <Route exact path="/contact">
               <Contact></Contact>
