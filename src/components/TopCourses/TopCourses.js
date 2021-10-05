@@ -39,7 +39,7 @@ const TopCourses = () => {
       </div>
       {/* button for goinng all courses */}
       <Link to="/courses">
-        <button className=" all-course-btn">VIEW ALL COURSES</button>
+        <button className=" all-course-btn">VIEW ALL COURSES <i class="fas fa-angle-double-right fs-5 ms-1 fw-bolder"></i></button>
       </Link>
     </div>
   );
