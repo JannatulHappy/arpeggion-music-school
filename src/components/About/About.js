@@ -6,7 +6,7 @@ import { Accordion } from "react-bootstrap";
 // this about has been set in AboutUs.js
 const About = () => {
   return (
-    <div>
+    <div className="mt-5">
       {/* title */}
       <h2 className="text-center mt-5 title ">About Us</h2>
       <hr className="w-25 mx-auto text-danger mb-4" />
@@ -14,11 +14,11 @@ const About = () => {
       <div className="row d-flex container ms-5 mt-5">
         {/*top part left image  */}
         <div className="col-lg-6 col-md-12">
-          <img className=" ms-5 img-fluid" src={img} alt="" />
+          <img className=" ms-5 my-4 img-fluid" src={img} alt="" />
         </div>
         {/* right side of top part*/}
         <div className="col-lg-6 col-md-12 ps-5">
-          <h3 className="ms-5 ps-5 text-center mt-4 fs-5 about-text">
+          <h3 className="ms-5 ps-5 text-center mt-4 fs-4 me-5 about-text">
             ARPEGGIO" - Music School & Workshop
           </h3>
           <p className="ms-5 ps-5 ms-5 about-text mt-4 fs-5">

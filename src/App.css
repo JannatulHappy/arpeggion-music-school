@@ -1,19 +1,21 @@
 /*global */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
-  
 }
 /* button */
-.arpeggio-button{
+.arpeggio-button {
   background-color: #2d4650;
   font-size: 1rem;
   font-weight: 500;
-  color:rgb(240, 230, 230);
-  border:1px solid #0f1f25;
+  color: rgb(231, 216, 216);
+  border: 1px solid #0f1f25;
   font-weight: 400;
   padding: 0.52rem 0.8rem;
   border-radius: 5px;

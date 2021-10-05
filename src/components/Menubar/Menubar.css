@@ -1,7 +1,9 @@
 /* navbar styels */
 nav {
   background-color: rgb(7, 34, 36);
-  opacity: 0.9;
+  opacity: 0.85;
+  width: 100vw;
+  height: 70px;
 }
 nav h1 {
   color: rgb(202, 182, 131);
@@ -10,7 +12,7 @@ nav h1 {
   font-size: 40px;
 }
 nav .nav-item {
-  color: rgb(202, 182, 131);
+  color: rgb(212, 197, 156);
   font-weight: 500;
   list-style: none;
   margin-right: 30px;

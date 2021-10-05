@@ -4,17 +4,17 @@
   margin: 50px auto;
 }
 .course-img img {
-  height: 270px;
+  height: 230px;
   width: 300px;
   border-radius: 7px;
 }
 .course {
   padding: 7px;
-  height: 620px;
+  height: 566px;
   border: 1px solid gray;
   margin-top: 10px;
   color: rgb(109, 92, 61);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .text-area {
   text-align: center;

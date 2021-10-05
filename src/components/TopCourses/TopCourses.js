@@ -23,12 +23,12 @@ const TopCourses = () => {
                 <hr className="w-50  mx-auto text-danger" />
                 <h4>Course Duration : {course.courseDuration}</h4>
                 <h4>Admission Fee : {course.admissionFee}</h4>
-                <p className="text-secondary mb-4">
+                <p className="text-secondary mb-3">
                   {course.admissionFeeDetails}
                 </p>
                 <h6>{course.class}</h6>
                 <Link to="/contact">
-                  <button className="arpeggio-button fs-5 mt-4">
+                  <button className="arpeggio-button fs-5 mt-3">
                     Get Admission Now
                   </button>
                 </Link>

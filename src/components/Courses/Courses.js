@@ -29,12 +29,12 @@ const Courses = () => {
                   <hr className="w-50  mx-auto text-danger" />
                   <h4>Course Duration : {course.courseDuration}</h4>
                   <h4>Admission Fee : {course.admissionFee}</h4>
-                  <p className="text-secondary mb-4">
+                  <p className="text-secondary mb-3">
                     {course.admissionFeeDetails}
                   </p>
                   <h6>{course.class}</h6>
                   <Link to="/contact">
-                    <button className="arpeggio-button fs-5 mt-4">
+                    <button className="arpeggio-button fs-5 mt-3">
                       Get Admission Now
                     </button>
                   </Link>
@@ -57,12 +57,12 @@ const Courses = () => {
                   <hr className="w-50  mx-auto text-danger" />
                   <h4>Course Duration : {course.courseDuration}</h4>
                   <h4>Admission Fee : {course.admissionFee}</h4>
-                  <p className="text-secondary mb-4">
+                  <p className="text-secondary mb-3">
                     {course.admissionFeeDetails}
                   </p>
                   <h6>{course.class}</h6>
                   <Link to="/contact">
-                    <button className="arpeggio-button fs-5 mt-4">
+                    <button className="arpeggio-button fs-5 mt-3">
                       Get Admission Now
                     </button>
                   </Link>
@@ -74,7 +74,7 @@ const Courses = () => {
         {/* online courses area */}
         <h1 className="text-center mt-5 mb-5 border title">Online Courses</h1>
         {/* img of online courses area */}
-        <div className="online-course mx-5 d-flex">
+        <div className="online-course mx-5 ps-5 d-flex">
           <img src={img} alt="" />
           <img src={img2} alt="" />
         </div>
