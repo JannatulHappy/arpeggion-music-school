@@ -10,7 +10,7 @@ import Courses from "./components/Courses/Courses";
 import Gallery from "./components/Gallery/Gallery";
 // context api for use in two places
 export const coursesContext = createContext();
-// main 
+
 function App() {
   // useState for context api value
   const [courses, setCourses] = useState([]);
